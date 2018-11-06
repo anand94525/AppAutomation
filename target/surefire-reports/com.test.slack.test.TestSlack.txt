@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.test.slack.test.TestSlack
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.422 s <<< FAILURE! - in com.test.slack.test.TestSlack
+testLogin(com.test.slack.test.TestSlack)  Time elapsed: 60.829 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XIPL9137.local', ip: 'fe80:0:0:0:4ef:c730:fd1:3ec5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/vikasthange/Desktop/..., appPackage: com.Slack, appWaitActivity: *, appWaitDuration: 30000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/vikasthange/Desktop/..., appWaitActivity: *, appWaitDuration: 30000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: ANDROID, fullReset: true, newCommandTimeout: 500, platformName: Android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 500, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5b6f6c22-274a-4440-9aee-bccbb3e95d5c
+*** Element info: {Using=id, value=com.Slack:id/next_button_url_entry}
+	at com.test.slack.test.TestSlack.testLogin(TestSlack.java:42)
+

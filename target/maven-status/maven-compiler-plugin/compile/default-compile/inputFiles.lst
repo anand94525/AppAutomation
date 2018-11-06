@@ -1,0 +1,13 @@
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/ServerManager.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/android/AndroidADBUtil.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/constants/Constants.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/MobileTypes.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/lib/enums/Platform.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/android/AndroidBaseTest.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/PropertiesManager.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/BaseTest.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/Page.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/DriverInstance.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/DriverManager.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/common/CommandRunner.java
+/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/listeners/TestListener.java
