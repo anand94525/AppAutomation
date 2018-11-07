@@ -21,6 +21,7 @@ public class TestSlack extends AndroidBaseTest {
 	@BeforeClass
 	public void startServer() {
 		ServerManager.startServer();
+		System.out.println("abc");
 	}
 	
 	@AfterClass
