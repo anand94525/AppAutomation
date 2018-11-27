@@ -1,13 +1,16 @@
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/ServerManager.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/android/AndroidADBUtil.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/constants/Constants.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/MobileTypes.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/lib/enums/Platform.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/android/AndroidBaseTest.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/PropertiesManager.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/BaseTest.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/Page.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/DriverInstance.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/core/DriverManager.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/common/CommandRunner.java
-/Users/vikasthange/eclipse-workspace/AppAutomation/src/main/java/com/framework/listeners/TestListener.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/android/AndroidBaseTest.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/AppiumServerConfig.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/DriverManager.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/BaseTest.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/android/AndroidADBUtil.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/android/AndroidDeviceManager.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/PropertiesManager.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/common/CommandRunner.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/listeners/TestListener.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/apps_auto/mobile/framework/config/Constants.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/ServerManager.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/Page.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/DriverInstance.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/constants/Constants.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/lib/enums/Platform.java
+/Users/vikasthange/Desktop/Test Project/AppAutomation/src/main/java/com/framework/core/MobileTypes.java

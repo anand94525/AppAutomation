@@ -39,6 +39,14 @@ public class PropertiesManager {
 				map.put(name.substring(CAPABILITY_PROP_PREFIX.length()), props.getProperty(name));
 			}
 		}
+		
+		// Replace with system properties
+				props = System.getProperties();
+				for (final String name : props.stringPropertyNames()) {
+					if (name.startsWith(CAPABILITY_PROP_PREFIX)) {
+						map.put(name.substring(CAPABILITY_PROP_PREFIX.length()), props.getProperty(name));
+					}
+				}
 		return map;
 	}
 }
