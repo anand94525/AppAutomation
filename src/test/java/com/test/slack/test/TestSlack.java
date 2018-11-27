@@ -30,7 +30,7 @@ public class TestSlack extends AndroidBaseTest {
 		initDriver();
 		
 		HomeScreen home = new HomeScreen();
-		Assert.assertTrue(home.isDisplayeddTemp(), "Temperature failed.");
+		Assert.assertTrue(home.isDisplayedTemp(), "Temperature failed.");
 	}
 	
 	@Test
