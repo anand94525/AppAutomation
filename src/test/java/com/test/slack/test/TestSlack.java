@@ -30,7 +30,7 @@ public class TestSlack extends AndroidBaseTest {
 		initDriver();
 		
 		HomeScreen home = new HomeScreen();
-		Assert.assertTrue(home.isDisplayedTemp());
+		Assert.assertTrue(home.isDisplayedTemp(), "Temp failed.");
 	}
 	
 	@Test
@@ -38,7 +38,7 @@ public class TestSlack extends AndroidBaseTest {
 		initDriver();
 		
 		HomeScreen home = new HomeScreen();
-		Assert.assertTrue(home.isDisplayedTemp());
+		Assert.assertTrue(home.isDisplayedSearchCity(), "Scarch city was not displayed.");
 	}
 	//TODO : Plan to add data providers to login data with positive and negative values.
 	@Test
