@@ -36,6 +36,14 @@ public class TestSlack extends AndroidBaseTest {
 		HomeScreen home = new HomeScreen();
 		Assert.assertTrue(home.isDisplayedTemp());
 	}
+	
+	@Test
+	public void testLogin2() {
+		initDriver();
+		
+		HomeScreen home = new HomeScreen();
+		Assert.assertTrue(home.isDisplayedTemp());
+	}
 	//TODO : Plan to add data providers to login data with positive and negative values.
 	@Test
 	public void testLogin() {
