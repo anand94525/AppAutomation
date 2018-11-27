@@ -26,7 +26,7 @@ public class TestSlack extends AndroidBaseTest {
 	}
 
 	@Test
-	public void testLogin1() {
+	public void testTempDisplayed() {
 		initDriver();
 		
 		HomeScreen home = new HomeScreen();
@@ -34,7 +34,7 @@ public class TestSlack extends AndroidBaseTest {
 	}
 	
 	@Test
-	public void testLogin2() {
+	public void testSearchCityDisplayed() {
 		initDriver();
 		
 		HomeScreen home = new HomeScreen();
