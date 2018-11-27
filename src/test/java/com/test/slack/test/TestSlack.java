@@ -1,6 +1,5 @@
 package com.test.slack.test;
 
-import java.io.File;
 import java.util.Random;
 
 import org.testng.Assert;
@@ -8,10 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
 import com.framework.core.DriverManager;
-import com.framework.core.ServerManager;
-import com.framework.core.android.AndroidADBUtil;
 import com.framework.core.android.AndroidBaseTest;
 import com.test.screens.HomeScreen;
 import com.test.screens.LoginScreen;
