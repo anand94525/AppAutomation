@@ -1,4 +1,4 @@
-package com.test.slack.screens;
+package com.test.screens;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

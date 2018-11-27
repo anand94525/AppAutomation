@@ -95,7 +95,7 @@ public class Constants {
 
 	/* Constants for starting Android Weather app via startActivity method */
 	public final static String TWC_APP_PACKAGE = "com.weather.Weather.qa";
-	public final static String TWC_ANDROID_FINDBY_ID = "com.weather.Weather.qa" + ":id/";
+	public final static String TWC_ANDROID_FINDBY_ID = "com.weather.Weather.qa:id/";
 	public final static String TWC_APP_ACTIVITY = TWC_APP_PACKAGE + "/com.weather.Weather.splash.SplashScreenActivity";
 
 	/* Web hook for logging */

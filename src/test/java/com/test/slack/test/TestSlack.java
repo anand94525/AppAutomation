@@ -13,8 +13,9 @@ import com.framework.core.DriverManager;
 import com.framework.core.ServerManager;
 import com.framework.core.android.AndroidADBUtil;
 import com.framework.core.android.AndroidBaseTest;
-import com.test.slack.screens.LoginScreen;
-import com.test.slack.screens.SettingsScreen;
+import com.test.screens.HomeScreen;
+import com.test.screens.LoginScreen;
+import com.test.screens.SettingsScreen;
 
 public class TestSlack extends AndroidBaseTest {
 	
@@ -30,7 +31,10 @@ public class TestSlack extends AndroidBaseTest {
 
 	@Test
 	public void testLogin1() {
-		System.out.println("ulalalalalal..................................................................................");
+		initDriver();
+		
+		HomeScreen home = new HomeScreen();
+		Assert.assertTrue(home.isDisplayedTemp());
 	}
 	//TODO : Plan to add data providers to login data with positive and negative values.
 	@Test

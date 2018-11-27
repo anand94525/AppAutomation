@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.test.slack.test.TestSlack
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 73.669 s <<< FAILURE! - in com.test.slack.test.TestSlack
-testLogin(com.test.slack.test.TestSlack)  Time elapsed: 71.465 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'XIPL9137.local', ip: 'fe80:0:0:0:32:1ac4:3700:306%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/vikasthange/Desktop/..., appPackage: com.Slack, appWaitActivity: *, appWaitDuration: 30000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/vikasthange/Desktop/..., appWaitActivity: *, appWaitDuration: 30000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: ANDROID, fullReset: true, maxTypingFrequency: 5, newCommandTimeout: 500, platformName: Android, systemPort: 8201, udid: emulator-5556}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5556, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 5, networkConnectionEnabled: true, newCommandTimeout: 500, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5556, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 6c033502-fd88-4722-8b5b-92e91949d161
-*** Element info: {Using=id, value=com.Slack:id/next_button_url_entry}
-	at com.test.slack.test.TestSlack.testLogin(TestSlack.java:41)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.706 s - in com.test.slack.test.TestSlack

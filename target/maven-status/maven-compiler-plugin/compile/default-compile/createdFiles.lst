@@ -4,6 +4,7 @@ com/apps_auto/mobile/framework/config/Constants.class
 com/framework/listeners/TestListener.class
 com/framework/core/PropertiesManager.class
 com/framework/lib/enums/Platform.class
+com/framework/core/Page$1.class
 com/framework/constants/Constants.class
 com/framework/core/ServerManager$RelaxedSecurityFlag.class
 com/framework/core/DriverInstance.class
@@ -15,6 +16,5 @@ com/framework/core/android/AndroidADBUtil.class
 com/framework/core/MobileTypes.class
 com/framework/core/MobileTypes$2.class
 com/framework/core/android/AndroidDeviceManager.class
-com/framework/core/android/AndroidBaseTest.class
 com/framework/core/Page.class
 com/framework/core/BaseTest.class

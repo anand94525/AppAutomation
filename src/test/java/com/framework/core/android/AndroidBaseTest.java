@@ -7,6 +7,8 @@ import com.apps_auto.mobile.framework.config.Constants;
 import com.framework.core.BaseTest;
 import com.framework.core.MobileTypes;
 import com.framework.core.PropertiesManager;
+import com.test.screens.HomeScreen;
+import com.test.screens.OnBoardingAlertScreen;
 import com.framework.core.PropertiesManager;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -29,12 +31,28 @@ public class AndroidBaseTest extends BaseTest {
 	}
 
 
-	public void initDriver() {
+	protected void initDriver() {
 		setAppiumSessionInfo();
 		this.initDriver(MobileTypes.ANDROID);
+		this.handleAlerts();
+		
+		//Wait for weather data
+		new HomeScreen().waitForWeatherData(20);
 	}
 	
-	public void initDriver(boolean reset) {
+
+	protected void handleAlerts() {
+		try {
+			Thread.sleep(5000);
+			OnBoardingAlertScreen onBoardingAlertScreen = new OnBoardingAlertScreen();
+			onBoardingAlertScreen.clickGotIt();
+			Thread.sleep(2000);
+			
+		} catch (Exception e) {
+		}
+	}
+	
+	protected void initDriver(boolean reset) {
 		System.setProperty("NoReset", "true");
 		this.initDriver(MobileTypes.ANDROID);
 	}

@@ -1,4 +1,4 @@
-package com.test.slack.screens;
+package com.test.screens;
 
 import java.util.List;
 
