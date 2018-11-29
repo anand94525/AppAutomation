@@ -28,7 +28,7 @@ public class TestSlack extends AndroidBaseTest {
 	@Test
 	public void testTempDisplayed() {
 		initDriver();
-		System.out.printlnn("Testt");
+		System.out.println("Testt");
 		
 		HomeScreen home = new HomeScreen();
 		Assert.assertTrue(home.isDisplayedTemp(), "Temperature failed.");
